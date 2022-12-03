@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+  }
+  .app {
+    margin: 0;
+    background-color: cadetblue;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 20rem;
+    /* align-items: center; */
+    justify-content: space-between;
+    font: 1.5rem sans-serif;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  input {
+    font-size: 1rem;
+  }
+  #result {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 2rem;
+  }
